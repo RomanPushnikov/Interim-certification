@@ -18,6 +18,7 @@ foreach (var item in arrayStr)                          // Вывели масс
 }
 
 Console.WriteLine();
+Console.Write("New massive: ");
 
 int t = 3;                                                                              // Длина искомых эле-ов массива
 string[] findSomeNumb = Array.FindAll(arrayStr, strings => strings.Length <= t );       // объявление и инициализация массива
