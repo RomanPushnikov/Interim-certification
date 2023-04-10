@@ -22,3 +22,7 @@ Console.WriteLine();
 int t = 3;                                                                              // Длина искомых эле-ов массива
 string[] findSomeNumb = Array.FindAll(arrayStr, strings => strings.Length <= t );       // объявление и инициализация массива
 
+foreach (var srtings in findSomeNumb)                  // Вывели массив
+{
+    Console.Write(" " + srtings);
+}
