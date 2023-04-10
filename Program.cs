@@ -10,3 +10,11 @@ for (int i = 0; i < array.Length; i++)                  // Сгенериров�
     arrayStr[i] = Convert.ToString(array[i]);
 }
 
+Console.Write("Massive: ");                                                 
+
+foreach (var item in arrayStr)                          // Вывели массив
+{
+    Console.Write(" " + item);
+}
+
+Console.WriteLine();
